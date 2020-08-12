@@ -12,15 +12,16 @@ class Dog
     @name
   end 
   
+    if breed.none?
+      puts "Mutt"
+    else "@breed"
+    end 
+    
   def breed=(breed)
     @breed = breed
       
   def breed
     @breed
-      
-  if breed.none?
-      puts "Mutt"
-    else "@breed"
-    end 
+    
   end 
 end 
