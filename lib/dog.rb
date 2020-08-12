@@ -23,5 +23,7 @@ class Dog
     if breed.any?
       @breed
     else
+      def breed=(breed)
+      @breed = breed
   end 
 end 
